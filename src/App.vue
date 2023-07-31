@@ -18,7 +18,6 @@ onMounted(() => {
 });
 
 let openMenu = ref(false);
-
 </script>
 
 <template>
@@ -112,39 +111,43 @@ let openMenu = ref(false);
           />
         </RouterLink>
         <div class="py-3.5"></div>
-        <MenuItem
-          :iconSize="24"
-          name="Create Playlist"
-          iconString="playlist"
-          pageUrl="/playlist"
-        />
-        <MenuItem
-          class="-ml-[1px]"
-          :iconSize="27"
-          name="Liked Songs"
-          iconString="liked"
-          pageUrl="/liked"
-        />
+        <RouterLink to="/playlsit">
+          <MenuItem
+            :iconSize="24"
+            name="Create Playlist"
+            iconString="playlist"
+            pageUrl="/playlist"
+          />
+        </RouterLink>
+        <RouterLink to="/library">
+          <MenuItem
+            class="-ml-[1px]"
+            :iconSize="27"
+            name="Liked Songs"
+            iconString="liked"
+            pageUrl="/liked"
+          />
+        </RouterLink>
       </ul>
       <div class="border-b border-b-gray-700"></div>
       <ul>
         <li
-          class="font-semibold text-[13px] mt-3 text-gray-300 hover:text-white"
+          class="cursor-not-allowed font-semibold text-[13px] mt-3 text-gray-300 hover:text-white"
         >
           My Playlist #1
         </li>
         <li
-          class="font-semibold text-[13px] mt-3 text-gray-300 hover:text-white"
+          class="cursor-not-allowed font-semibold text-[13px] mt-3 text-gray-300 hover:text-white"
         >
           My Playlist #2
         </li>
         <li
-          class="font-semibold text-[13px] mt-3 text-gray-300 hover:text-white"
+          class="cursor-not-allowed font-semibold text-[13px] mt-3 text-gray-300 hover:text-white"
         >
           My Playlist #3
         </li>
         <li
-          class="font-semibold text-[13px] mt-3 text-gray-300 hover:text-white"
+          class="cursor-not-allowed font-semibold text-[13px] mt-3 text-gray-300 hover:text-white"
         >
           My Playlist #4
         </li>

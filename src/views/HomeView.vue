@@ -3,37 +3,11 @@ import HomeCard from "../components/HomeCard.vue";
 
 const cardData = [
   {
-    image: "https://picsum.photos/id/30/300/300",
-    title: "Title is here",
-    subTitle: "Subtitle is here",
+    // image: "https://picsum.photos/id/30/300/300",
+    image: "https://www.playmusic.ir/images/thumbs/9568_400.jpg",
+    title: "Marde Tanha",
+    subTitle: "Ali Sorena",
     id: 1,
-  },
-  {
-    image: "https://picsum.photos/id/45/300/300",
-    title: "Title is here",
-    subTitle: "Subtitle is here",
-    id: 2,
-  },
-  {
-    image: "https://picsum.photos/id/65/300/300",
-    title: "Title is here",
-    subTitle: "Subtitle is here",
-    class: "md:block hidden",
-    id: 3,
-  },
-  {
-    image: "https://picsum.photos/id/67/300/300",
-    title: "Title is here",
-    subTitle: "Subtitle is here",
-    class: "lg:block hidden",
-    id: 4,
-  },
-  {
-    image: "https://picsum.photos/id/100/300/300",
-    title: "Title is here",
-    subTitle: "Subtitle is here",
-    class: "xl:block hidden",
-    id: 5,
   },
 ];
 </script>

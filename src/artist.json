@@ -1,62 +1,57 @@
 {
-    "name": "Diaries Of A Hero",
-    "albumCover": "/images/albumCovers/DiariesOfAHero.png",
-    "releaseYear": "2014",
-    "tracks": [
-        {
-            "id": 1,
-            "name": "Intro",
-            "path": "/songs/Intro.mp3"
-        },
-        {
-            "id": 2,
-            "name": "Solitude",
-            "path": "/songs/Solitude.mp3"
-        },
-        {
-            "id": 3,
-            "name": "Manimal",
-            "path": "/songs/Manimal.mp3"
-        },
-        {
-            "id": 4,
-            "name": "J5",
-            "path": "/songs/J5.mp3"
-        },
-        {
-            "id": 5,
-            "name": "Throne",
-            "path": "/songs/Throne.mp3"
-        },
-        {
-            "id": 6,
-            "name": "Scarwhores",
-            "path": "/songs/Scarwhores.mp3"
-        },
-        {
-            "id": 7,
-            "name": "Highschool Funeral",
-            "path": "/songs/Highschool Funeral.mp3"
-        },
-        {
-            "id": 8,
-            "name": "Get Away",
-            "path": "/songs/Get Away.mp3"
-        },
-        {
-            "id": 9,
-            "name": "Victims of Chaos",
-            "path": "/songs/Victims of Chaos.mp3"
-        },
-        {
-            "id": 10,
-            "name": "Neruda",
-            "path": "/songs/Neruda.mp3"
-        },
-        {
-            "id": 11,
-            "name": "Brother",
-            "path": "/songs/Brother.mp3"
-        }
-    ]
+  "name": "Ali Sorena",
+  "albumCover": "/MardeTanha/AliSorena.jpg",
+  "releaseYear": "2011",
+  "tracks": [
+    {
+      "id": 1,
+      "name": "Gharibe Nisti",
+      "path": "/MardeTanha/1.mp3"
+    },
+    {
+      "id": 2,
+      "name": "Beshnas",
+      "path": "/MardeTanha/2.mp3"
+    },
+    {
+      "id": 3,
+      "name": "Taghsir",
+      "path": "/MardeTanha/3.mp3"
+    },
+    {
+      "id": 4,
+      "name": "Masti",
+      "path": "/MardeTanha/4.mp3"
+    },
+    {
+      "id": 5,
+      "name": "Zendegi Hip Hopi",
+      "path": "/MardeTanha/5.mp3"
+    },
+    {
+      "id": 6,
+      "name": "2L",
+      "path": "/MardeTanha/6.mp3"
+    },
+    {
+      "id": 7,
+      "name": "Haft Khat",
+      "path": "/MardeTanha/7.mp3"
+    },
+    {
+      "id": 8,
+      "name": "Khake Sorkh",
+      "path": "/MardeTanha/8.mp3"
+    },
+    {
+      "id": 9,
+      "name": "Hala Vaght Khab Nist",
+      "path": "/MardeTanha/9.mp3"
+    },
+    {
+      "id": 10,
+      "name": "Bad Az Man",
+      "path": "/MardeTanha/10.mp3"
+    }
+  ]
 }

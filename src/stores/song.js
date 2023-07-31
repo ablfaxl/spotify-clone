@@ -4,10 +4,11 @@ import artist from "../artist.json";
 export const useSongStore = defineStore("song", {
   state: () => ({
     isPlaying: false,
-    audio: null,
+    audio: {},
     currentArtist: null,
     currentTrack: null,
-    imageUrl:'https://gamepress.gg/wizardsunite/sites/wizardsunite/files/2019-05/ui_icon_lenses_voldemortmask.png'
+    imageUrl:
+      "https://gamepress.gg/wizardsunite/sites/wizardsunite/files/2019-05/ui_icon_lenses_voldemortmask.png",
   }),
   actions: {
     loadSong(artist, track) {

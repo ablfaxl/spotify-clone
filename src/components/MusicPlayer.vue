@@ -21,12 +21,13 @@ let seekerContainer = ref(null);
 let range = ref(0);
 
 onMounted(() => {
-  if (audio.value) {
+  if (audio?.value) {
     setTimeout(() => {
       timeupdate();
       loadmetadata();
     }, 300);
   }
+  console.log(audio.value)
 
   if (currentTrack.value) {
     seeker.value.addEventListener("change", function () {
